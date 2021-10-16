@@ -1,0 +1,17 @@
+{
+  "name": "realtime-chat",
+  "version": "1.0.0",
+  "description": "Real time chat app with web sockets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Maneth",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.2.0"
+  }
+}
